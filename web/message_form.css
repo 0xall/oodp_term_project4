@@ -1,0 +1,78 @@
+
+.message_list_form {
+    width:100%;
+    padding:0px; margin:0px;
+    text-align:left;
+}
+
+.message_list_form ul {
+    list-style-type: none;
+    padding:32px; margin:0;
+    text-align:left;
+    border-collapse: collapse;
+}
+
+.message_list_form li {
+    border-bottom: 1px solid #999;
+    padding:4px 0 4px 0; margin:0;
+}
+
+.message_list_form li:hover {
+    background-color:#edf8fc;
+}
+
+.message_list_form input {
+    border-radius: 4px;
+    box-shadow: none;
+    width:100%;
+    height: 32px;
+    line-height: 32px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #999;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Open Sans';
+    font-size: 0.82em
+}
+
+.message_list_form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    width:100%;
+    height: 128px;
+    line-height: 32px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #999;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: 'Open Sans';
+    font-size: 0.82em
+}
+
+.messaget_form label {
+    position:absolute;
+    color:#999;
+    cursor:text;
+    padding-left:8px;
+    font-size:0.82em;
+    line-height: 32px;
+}
+
+.sender {
+    font-weight: bold;
+    font-size:0.82em;
+    padding-left:16px;
+}
+
+.time {
+    float:right;
+    font-size:0.6em;
+    padding-right:16px;
+}
+
+.content {
+    padding:12px 24px 12px 24px;
+    font-size:0.78em;
+}
